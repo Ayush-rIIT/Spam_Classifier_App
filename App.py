@@ -2,9 +2,10 @@ import streamlit as st
 import pickle
 import string
 import nltk
-nltk.download('punkt')         # For word_tokenize
-nltk.download('stopwords')     # If using stopwords
+nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
+nltk.download('stopwords')     # If using stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
